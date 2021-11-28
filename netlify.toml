@@ -1,7 +1,7 @@
 [build]
 
 publish = "./public/"
-command = "hugo -d public"
+command = "go run go/test.go && hugo -d public"
 
 [build.environment]
 HUGO_VERSION = "0.89.1"
